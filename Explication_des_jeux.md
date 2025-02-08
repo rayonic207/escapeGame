@@ -1,4 +1,4 @@
-# Mystère 5 Stack
+# 1. Mystère 5 Stack
 L’objectif de premier jeu était de proposer une expérience ludique et éducative où les participants, guidés par des M5 Stacks, doivent résoudre une série de 2 quiz interactifs mêlant technologie, réflexion et d'exploration pour aboutir à un message de victoire.
 
 #### Quiz 1 : "Le 1er ordinateur electronique, ENIAC, a ete cree en 1945. Mais combien de temps lui fallait-il pour demarrer ?"
@@ -22,9 +22,20 @@ Ils ont à leurs dispositions des indices sur des M5Stack pour les aider qui son
 
 - Message : "Leve l'ancre matelot ! Cap sur le navire 192.168.1.120 a la porte 147 et demande pour le cap'tain Blackbeard et donne le mot passe pour entrer.
 
-# Intrusion Des Pirates
+# 2. Intrusion Des Pirates
+
+![Screenshot from 2025-02-08 22-20-22](https://github.com/user-attachments/assets/fc66b1bb-85ab-4551-81ac-1c584b5e1312)
 
 L’objectif de ce second challenge permet aux participants réaliser une attaque par dictionnaire sur une machine à distance pour tenter de cracker le mot de passe en utilisant la commande **hydra** et le dictionnaire de mot de passe **rockyou.txt**.
 - commande :  hydra -l blackbeard -P rockyou.txt ssh://192.168.1.120:147 -V
 
-Puis trouver une image sur cette machine qui contient un message caché. Pour la machine à distance, nous avons utilisé un raspberry pi 3.
+Et les participants doivent obtenir comme mot de passe : secret. Ensuite, ils se connectent à l'utilisateur blackbeard à distance en utilisant la commande : ssh -p 147 blackbeard@192.168.1.120. Puis trouver une image nommée **pirate_des_outre-mers.jpg** sur cette machine qui contient un message caché. Pour les aider, un fichier **indice.txt** contient la commande steghide pour récupérer le message caché dans l'image.
+
+Après avoir lancer la commande, les participants obtiennent un fichier **flag.txt** contenant les instructions pour accéder à la radio et la fréquence de la radio.
+
+**À savoir que : Pour la machine à distance, nous avons utilisé un raspberry pi 3.**
+
+# 3. Station Radio Pirate
+
+![Screenshot from 2025-02-08 22-20-53](https://github.com/user-attachments/assets/0dad7bbc-2162-4941-b809-f8f28134e94e)
+
