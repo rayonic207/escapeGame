@@ -5,6 +5,7 @@ Ce projet est un Escape Game réalisé par les étudiants en BUT Réseaux & Tél
 - 3 M5 Stack
 - 3 Raspberry Pi (avec 1 cartes SD chacun)
 - 1 ordinateur (avec un compte spécial pour les participants)
+- 1 esp8266
 
 Avec le premier Raspberry Pi, nous avons réalisé notre propre réseau Wi-Fi **pirate-dom**, pour cela nous avons téléchargé et installé RaspAP dessus.
 
