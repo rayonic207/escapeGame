@@ -5,15 +5,13 @@ L’objectif de premier jeu était de proposer une expérience ludique et éduca
      - A: Quelques minutes
      - B: Quelques jours
      - C: Quelques heures
-
-La réponse correcte est la **C: Quelques heures**.
+     La réponse correcte est la **C: Quelques heures**.
 
 - Quiz 2 : "Trouver la correspondance binaire de cette sequence : 5 - 8 - 3 - 7"
      - A: 0101 - 0111 - 1001 - 0101
      - B: 0101 - 1000 - 0011 - 0111
      - C: 1110 - 0010 - 1101 - 0110
-
-La réponse correcte est la **B: 0101 - 1000 - 0011 - 0111**.
+     La réponse correcte est la **B: 0101 - 1000 - 0011 - 0111**.
 
 Ils ont à leurs dispositions des indices sur des M5Stack pour les aider qui sont discimuler un peu partout dans la pièce et ils possèdent des "parchemins pirates" contenant une énigme pour les permettrent de retrouver ces indices.
 
