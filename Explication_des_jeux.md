@@ -8,6 +8,7 @@ L’objectif de premier jeu était de proposer une expérience ludique et éduca
 
 La réponse correcte est la **C: Quelques heures**.
 
+
 #### Quiz 2 : "Trouver la correspondance binaire de cette sequence : 5 - 8 - 3 - 7"
 - A: 0101 - 0111 - 1001 - 0101
 - B: 0101 - 1000 - 0011 - 0111
