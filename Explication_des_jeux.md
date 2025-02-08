@@ -39,8 +39,16 @@ Après avoir lancer la commande, les participants obtiennent un fichier **flag.t
 
 ![Screenshot from 2025-02-08 22-20-53](https://github.com/user-attachments/assets/0dad7bbc-2162-4941-b809-f8f28134e94e)
 
-L’objectif de ce troisième challenge est que les participants utilisent les indices à leur disposition pour déchiffrer un message encodé en morse transmis par une radio . Ce message correspond au nom d’un dossier qu’ils doivent chercher sur la machine à leur disposition. Ce dossier contient un fichier contenant un code final pour passer .
+L’objectif de ce troisième challenge est que les participants utilisent les indices à leur disposition pour déchiffrer un message encodé en morse transmis par une radio sur un raspberry pi. Ce message correspond au nom d’un dossier qu’ils doivent chercher sur la machine à leur disposition. Ce dossier contient un fichier contenant un code final pour passer.
 
-Une fois que les participants se sont connecté sur la radio 
+Une fois que les participants se sont connecté sur la machine à distance que la radio se lance automatiquement. Cela aura pour effet de rendre plus fluide le challenge, le joueur n’aura pas à lancer manuellement la radio. Par ailleurs, cela garantit aussi que le joueur respecte les étapes du jeu. 
 
-**À savoir que : Pour réaliser la radio, nous avons utilisé un raspberry pi.**
+Pour réaliser cette fluidité, nous avons ajouté dans le fichier **.bashrc** du raspberry la commande : sudo PiFmRds/src/pi_fm_rds -freq 107.1 -audio PiFmRds/src/santa_morse.wav -ps PiRate_des_Autres_Mers -rt "Transmission Morse".
+
+Après leurs efforts de décryptage, le message révélé est : **santa**. Ce message correspond au nom d’un fichier qu’ils doivent trouver sur l’ordinateur mis à leur disposition depuis le début du jeu. 
+
+# 4. Crocs du requin
+
+L'objectif de ce challenge de fin est de réaliser une analyse d'un fichier .pcapng nommé **les_crocs_du_requins.pcapng** qui se trouve dans le dossier santa. Et dans l'un des trames du fichier se trouve un message pour terminer l'Escape Game dont le messsage est **code : hacker**.
+
+Pour réaliser le fichier pcap, nous avons utilisé un esp8266 pour envoyer un ping vers une machine du réseau pirate-dom tout les 5 secondes qui contient le message.
