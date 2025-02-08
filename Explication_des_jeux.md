@@ -1,14 +1,14 @@
 # Mystère 5 Stack
 L’objectif de premier jeu était de proposer une expérience ludique et éducative où les participants, guidés par des M5 Stacks, doivent résoudre une série de 2 quiz interactifs mêlant technologie, réflexion et d'exploration pour aboutir à un message de victoire.
 
-### Quiz 1 : "Le 1er ordinateur electronique, ENIAC, a ete cree en 1945. Mais combien de temps lui fallait-il pour demarrer ?"
+#### Quiz 1 : "Le 1er ordinateur electronique, ENIAC, a ete cree en 1945. Mais combien de temps lui fallait-il pour demarrer ?"
 - A: Quelques minutes
 - B: Quelques jours
 - C: Quelques heures
 
 La réponse correcte est la **C: Quelques heures**.
 
-### Quiz 2 : "Trouver la correspondance binaire de cette sequence : 5 - 8 - 3 - 7"
+#### Quiz 2 : "Trouver la correspondance binaire de cette sequence : 5 - 8 - 3 - 7"
 - A: 0101 - 0111 - 1001 - 0101
 - B: 0101 - 1000 - 0011 - 0111
 - C: 1110 - 0010 - 1101 - 0110
