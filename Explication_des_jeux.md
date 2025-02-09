@@ -32,7 +32,7 @@ L’objectif de ce second challenge permet aux participants réaliser une attaqu
 Et les participants doivent obtenir comme mot de passe : **secret**. Ensuite, ils se connectent à l'utilisateur blackbeard à distance en utilisant la commande : ssh -p 147 blackbeard@192.168.1.120. Puis trouver une image nommée **pirate_des_outre-mers.jpg** sur cette machine qui contient un message caché. Pour les aider, un fichier **indice.txt** contient la commande **steghide extract -sf image.jpg** pour récupérer le message caché dans l'image.
 - Message : "Ohé matelot ! T'as réussi à percer le mystère de l'affiche. Mets les voiles vers le navire 192.168.1.122. Là-bas, l'capitaine répond au nom d'Etudiant. Mais veille bien à retenir ça : 107.1. À la bordage ! Cap sur la station pirate !"
 
-Après avoir lancer la commande, les participants obtiennent un fichier **flag.txt** contenant les instructions pour accéder au jeu intitulé “Station Radio Pirate”.
+Après avoir lancer la commande, les participants obtiennent un fichier **flag.txt** contenant le message pour accéder au jeu intitulé “Station Radio Pirate”.
 
 **À savoir que : Pour la machine à distance, nous avons utilisé un raspberry pi 3.**
 
