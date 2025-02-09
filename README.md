@@ -10,3 +10,5 @@ Ce projet est un Escape Game réalisé par les étudiants en BUT Réseaux & Tél
 Avec le premier Raspberry Pi, nous avons réalisé notre propre réseau Wi-Fi **pirate-dom**, pour cela nous avons téléchargé et installé RaspAP dessus.
 
 **À savoir que: Pour les tutos et programmes sources, vous les trouverez dans le dossier annexe. Chaque programme est commenté pour faciliter la compréhension et la réutilisation.**
+
+Le dossier **escapegame2024** doivent être ajouté dans le **home** de la machine qui sera mise à disposition des participants.
