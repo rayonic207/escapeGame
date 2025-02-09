@@ -46,6 +46,8 @@ Une fois que les participants se sont connecté sur la machine à distance que l
 
 Pour réaliser cette fluidité, nous avons ajouté dans le fichier **.bashrc** du raspberry la commande : sudo PiFmRds/src/pi_fm_rds -freq 107.1 -audio PiFmRds/src/santa_morse.wav -ps PiRate_des_Autres_Mers -rt "Transmission Morse".
 
+Alors le message diffusé sur la radio commence par une voie d’introduction qui fera comprendre au joueur que c’est le début du message puisque celui-ci tourne en boucle. Cette voix déclare de manière énigmatique : “**Hello Moussaillons, un morse a codé ce message, aide-moi à le décoder.**” Immédiatement après, le signal en code morse est transmis.
+
 Après leurs efforts de décryptage, le message révélé est : **santa**. Ce message correspond au nom d’un fichier qu’ils doivent trouver sur l’ordinateur mis à leur disposition depuis le début du jeu. 
 
 # 4. Crocs du requin
