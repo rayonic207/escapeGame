@@ -16,7 +16,7 @@ La réponse correcte est la **C: Quelques heures**.
      
 La réponse correcte est la **B: 0101 - 1000 - 0011 - 0111**.
 
-Ils ont à leurs dispositions des indices sur des M5Stack pour les aider qui sont discimuler un peu partout dans la pièce et ils possèdent des "parchemins pirates" contenant une énigme pour les permettrent de retrouver ces indices.
+Ils ont à leurs dispositions des indices sur des M5Stack pour les aider qui sont discimuler un peu partout dans la pièce et ils possèdent des "parchemins pirates" contenant une énigme pour les permettrent de retrouver ces indices. Pour le quiz 2, les participants ont un parchemin conportant les correspondances binaires de chaque chiffres mais tout en gardant le thème pirate tels qu'un drapeau correspont à 0 et un palmier correspont à un 1.  
 
 À la fin de ce jeu, un message s’affiche sur le M5Stack principal. Ce message est une énigme à décoder, orientant les participants vers le deuxième jeu intitulé “Intrusion des pirates”.
 
