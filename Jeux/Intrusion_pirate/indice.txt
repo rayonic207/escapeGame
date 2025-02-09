@@ -1,0 +1,11 @@
+Non d'un vieux loud de mers !!
+
+T’baisses pavillon déjà alors qu’l’aventure n’a même pas levé l’ancre ? 
+Un vrai pirate n’abandonne jamais, sacrebleu !
+
+Un flibustier au grand cœur te laisse cette clé pour
+continuer ton périple
+
+Arrrr !
+
+Clef : steghide extract -sf image.jpg
