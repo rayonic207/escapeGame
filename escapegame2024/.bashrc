@@ -1,2 +1,2 @@
-sudo python3 /home/etudiant/header/pirate_des_outre-mers.py
+sudo python3 /home/$USER/header/pirate_des_outre-mers.py
 history -c
